@@ -1,0 +1,28 @@
+/* styles.css */
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background:black;
+    text-align: center; /* Centra el texto y elementos en el cuerpo */
+}
+
+
+h2 {
+    margin-top: 60px; /* Ajusta el espacio superior para bajar el título */
+    font-size: 2em; /* Tamaño del texto del título */
+    color: #333; /* Color del texto */
+}
+
+p {
+    font-size: 1.2em; /* Tamaño del texto del párrafo */
+    color: #666; /* Color del texto del párrafo */
+}
+
+iframe {
+    max-width: 100%; /* Asegura que el iframe no exceda el ancho del contenedor */
+    height: 450px; /* Altura fija para el iframe */
+    border: none; /* Elimina el borde del iframe */
+    margin: 20px 0; /* Espacio arriba y abajo del iframe */
+}

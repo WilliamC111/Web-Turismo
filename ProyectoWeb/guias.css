@@ -1,0 +1,85 @@
+/* Aplica un margen y padding a todos los elementos */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Configura el estilo general del body */
+body {
+    background-color: rgb(18, 16, 16);
+    font-family: sans-serif;
+    width: 100vw;
+}
+
+/* Configura el contenedor de las tarjetas */
+.container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0;
+}
+
+/* Configura el estilo de las tarjetas */
+.card {
+    /* background-color: rgb(205, 255, 223); */
+    color: #000;
+    width: 350px;
+    height: auto;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 30px;
+}
+
+/* Configura el contenedor de la imagen dentro de la tarjeta */
+.card .image {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+    border-bottom-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+/* Configura el estilo de la imagen dentro de la tarjeta */
+.card .image img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Configura el estilo del encabezado dentro de la tarjeta */
+.card h2 {
+    margin: 15px 5px;
+    position: relative;
+}
+
+/* Configura el estilo de la línea decorativa debajo del encabezado */
+.card h2::before {
+    content: '';
+    background-color: #000;
+    height: 3px;
+    width: 100px;
+    position: absolute;
+    bottom: -4px;
+    border-radius: 50%;
+}
+
+/* Configura el estilo del párrafo dentro de la tarjeta */
+.card p {
+    margin-left: 5px;
+}
+
+/* Configura el estilo del botón dentro de la tarjeta */
+.card button {
+    background-color: #000;
+    color: white;
+    margin-top: 15px;
+    margin-left: 5px;
+    padding: 10px 15px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 0.9rem;
+}

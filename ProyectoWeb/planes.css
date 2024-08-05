@@ -1,0 +1,51 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+    background: black;
+    color: white; /* Para hacer el texto visible sobre el fondo negro */
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-size: 2em;
+    color: #f4f4f4; /* Cambia el color para que se vea en el fondo negro */
+}
+
+p {
+    margin-bottom: 20px;
+    font-size: 1.2em;
+    color: #ccc; /* Cambia el color para que se vea en el fondo negro */
+}
+
+.container {
+    margin-top: 100px; /* Añade margen superior para separar el contenido del encabezado */
+}
+
+table {
+    width: 80%;
+    margin: 0 auto 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 2px 3px rgba(0, 0, 0, 0.1);
+    background: white; /* Fondo blanco para la tabla */
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 12px;
+    text-align: left;
+    color: #333; /* Color del texto dentro de la tabla */
+}
+
+th {
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+tr:hover {
+    background-color: #46aee5;
+}
